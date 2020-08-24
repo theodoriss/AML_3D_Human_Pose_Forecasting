@@ -12,7 +12,7 @@ import torch.nn as nn
 
 
 class ConvTemporalGraphical(nn.Module):
-    #Source : https://github.com/yysijie/st-gcn/blob/master/net/st_gcn.py
+    #Source : https://github.com/yysijie/st-gcn/blob/master/net/utils/tgcn.py
     r"""The basic module for applying a graph convolution.
     Args:
         in_channels (int): Number of channels in the input sequence data
